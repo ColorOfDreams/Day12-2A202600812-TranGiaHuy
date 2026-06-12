@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: examforge-ai
+    runtime: docker
+    rootDir: lab-assignment
+    dockerfilePath: ./lab-assignment/Dockerfile
+    dockerContext: ./lab-assignment
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_APP_NAME
+        value: ExamForge AI
+      - key: NEXT_PUBLIC_APP_VERSION
+        value: 0.1.0
+      - key: API_GATEWAY_ENABLED
+        value: true
+      - key: API_GATEWAY_ALLOW_SAME_ORIGIN
+        value: true
+      - key: RATE_LIMIT_ENABLED
+        value: true
+      - key: RATE_LIMIT_REQUESTS_PER_MINUTE
+        value: 30
+      - key: COST_GUARD_ENABLED
+        value: true
+      - key: COST_GUARD_TOKENS_PER_MINUTE
+        value: 1000
+      - key: AI_PROVIDER_TIMEOUT_MS
+        value: 25000
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: API_GATEWAY_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true

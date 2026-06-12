@@ -1,0 +1,22 @@
+services:
+  examforge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: examforge-ai:local
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      INSTANCE_ID: docker-local-1
+      API_GATEWAY_ALLOW_SAME_ORIGIN: "true"
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

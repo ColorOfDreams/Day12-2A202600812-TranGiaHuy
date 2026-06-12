@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1001,
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "difficulty": "easy",
+    "cognitiveLevel": "recognition",
+    "text": "Which quantity is measured in newtons?",
+    "options": {
+      "A": "Energy",
+      "B": "Force",
+      "C": "Power",
+      "D": "Pressure"
+    },
+    "correctAnswer": "B",
+    "explanation": "Newton is the SI unit of force."
+  },
+  {
+    "id": 1002,
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "difficulty": "easy",
+    "cognitiveLevel": "understanding",
+    "text": "Why does an object moving at constant velocity have zero acceleration?",
+    "options": {
+      "A": "Its mass is zero",
+      "B": "Its velocity is not changing",
+      "C": "No forces exist in the universe",
+      "D": "Its displacement is always zero"
+    },
+    "correctAnswer": "B",
+    "explanation": "Acceleration measures the rate of change of velocity, so constant velocity gives zero acceleration."
+  },
+  {
+    "id": 1003,
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "difficulty": "medium",
+    "cognitiveLevel": "application",
+    "text": "A 2 kg object accelerates at 3 m/s^2. What is the net force?",
+    "options": {
+      "A": "1.5 N",
+      "B": "5 N",
+      "C": "6 N",
+      "D": "9 N"
+    },
+    "correctAnswer": "C",
+    "explanation": "Using F = ma, the force is 2 x 3 = 6 N."
+  },
+  {
+    "id": 1004,
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "difficulty": "hard",
+    "cognitiveLevel": "advanced_application",
+    "text": "A ball is thrown upward at 20 m/s. Ignoring air resistance and taking g = 10 m/s^2, after how many seconds does it return to the launch height?",
+    "options": {
+      "A": "1 s",
+      "B": "2 s",
+      "C": "4 s",
+      "D": "8 s"
+    },
+    "correctAnswer": "C",
+    "explanation": "Time up is v/g = 20/10 = 2 s, so total flight time back to the same height is 4 s."
+  },
+  {
+    "id": 2001,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "cognitiveLevel": "recognition",
+    "text": "Which functional group is present in alcohols?",
+    "options": {
+      "A": "-OH",
+      "B": "-COOH",
+      "C": "-CHO",
+      "D": "-NH2"
+    },
+    "correctAnswer": "A",
+    "explanation": "Alcohols contain the hydroxyl group, written as -OH."
+  },
+  {
+    "id": 2002,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "cognitiveLevel": "understanding",
+    "text": "Why do alkanes generally have low reactivity?",
+    "options": {
+      "A": "They contain only strong C-C and C-H sigma bonds",
+      "B": "They are always ionic",
+      "C": "They contain many double bonds",
+      "D": "They dissolve completely in water"
+    },
+    "correctAnswer": "A",
+    "explanation": "Alkanes are saturated hydrocarbons with relatively strong nonpolar sigma bonds."
+  },
+  {
+    "id": 2003,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "cognitiveLevel": "application",
+    "text": "Which product forms when ethene reacts with hydrogen in the presence of a nickel catalyst?",
+    "options": {
+      "A": "Ethanol",
+      "B": "Ethane",
+      "C": "Ethanoic acid",
+      "D": "Chloroethane"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hydrogenation adds hydrogen across the double bond, converting ethene to ethane."
+  },
+  {
+    "id": 3001,
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "easy",
+    "cognitiveLevel": "recognition",
+    "text": "What is the derivative of x^2?",
+    "options": {
+      "A": "x",
+      "B": "2x",
+      "C": "x^3",
+      "D": "2"
+    },
+    "correctAnswer": "B",
+    "explanation": "By the power rule, d/dx x^2 = 2x."
+  },
+  {
+    "id": 3002,
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "medium",
+    "cognitiveLevel": "understanding",
+    "text": "What does a positive derivative at a point indicate about a function near that point?",
+    "options": {
+      "A": "The function is decreasing",
+      "B": "The function is increasing",
+      "C": "The function is constant everywhere",
+      "D": "The function has no graph"
+    },
+    "correctAnswer": "B",
+    "explanation": "A positive derivative indicates the function is increasing locally."
+  },
+  {
+    "id": 3003,
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "hard",
+    "cognitiveLevel": "advanced_application",
+    "text": "If f'(x) = 3x^2 and f(0) = 2, what is f(2)?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correctAnswer": "C",
+    "explanation": "Integrating gives f(x) = x^3 + C. Since f(0) = 2, C = 2, so f(2) = 8 + 2 = 10."
+  },
+  {
+    "id": 4001,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "cognitiveLevel": "recognition",
+    "text": "What molecule carries genetic information in most living organisms?",
+    "options": {
+      "A": "DNA",
+      "B": "Glucose",
+      "C": "Lipids",
+      "D": "Water"
+    },
+    "correctAnswer": "A",
+    "explanation": "DNA stores hereditary genetic information."
+  },
+  {
+    "id": 4002,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "cognitiveLevel": "understanding",
+    "text": "Why can recessive traits disappear in one generation and reappear in the next?",
+    "options": {
+      "A": "Recessive alleles can be hidden in heterozygous carriers",
+      "B": "Dominant alleles vanish after meiosis",
+      "C": "DNA is not inherited",
+      "D": "Traits are selected randomly after birth"
+    },
+    "correctAnswer": "A",
+    "explanation": "A recessive allele may be masked by a dominant allele in carriers and appear when inherited in two copies."
+  },
+  {
+    "id": 4003,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "hard",
+    "cognitiveLevel": "application",
+    "text": "Two heterozygous parents Aa x Aa have a child. What is the probability the child is aa?",
+    "options": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%",
+      "D": "75%"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Punnett square gives AA, Aa, Aa, and aa, so aa occurs in 1 out of 4 cases."
+  }
+]
